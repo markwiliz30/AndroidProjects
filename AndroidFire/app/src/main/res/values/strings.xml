@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidFire</string>
+
+    <array name="UserType">
+        <item>Super Admin</item>
+        <item>Administrator</item>
+        <item>Advance User</item>
+        <item>Normal User</item>
+    </array>
+</resources>
