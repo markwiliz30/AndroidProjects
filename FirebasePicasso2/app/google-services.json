@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "744065287535",
+    "firebase_url": "https://fir-picasso-3486b.firebaseio.com",
+    "project_id": "fir-picasso-3486b",
+    "storage_bucket": "fir-picasso-3486b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744065287535:android:706d7ab035035b2a",
+        "android_client_info": {
+          "package_name": "com.example.user.firebasepicasso"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744065287535-bctmqfin4v5476l9ajs3ga7p90vbof0n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.firebasepicasso",
+            "certificate_hash": "96d0b61e56a39d6f1806d2ec2cbdbe05ce46ebf3"
+          }
+        },
+        {
+          "client_id": "744065287535-dthkuhhsfi7bb721gvq6b8cdej99vh0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX-wGZdaA4w0U0xX27ZxstBO3r2ZzEpgY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744065287535-dthkuhhsfi7bb721gvq6b8cdej99vh0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744065287535:android:8a8de8dda3e896aa",
+        "android_client_info": {
+          "package_name": "com.example.user.firebasepicasso2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744065287535-dq1iqn3ej2imh8osdoi5h9mkl05313bh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.firebasepicasso2",
+            "certificate_hash": "96d0b61e56a39d6f1806d2ec2cbdbe05ce46ebf3"
+          }
+        },
+        {
+          "client_id": "744065287535-dthkuhhsfi7bb721gvq6b8cdej99vh0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX-wGZdaA4w0U0xX27ZxstBO3r2ZzEpgY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744065287535-dthkuhhsfi7bb721gvq6b8cdej99vh0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
