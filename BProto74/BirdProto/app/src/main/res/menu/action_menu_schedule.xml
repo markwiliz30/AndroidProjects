@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/act_sched_set"
+        android:icon="@drawable/ic_action_schd_set"
+        android:title="Set"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/act_schd_import"
+        android:icon="@drawable/ic_action_pgm_import"
+        android:title="Import"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/act_schd_add_setup"
+        android:icon="@drawable/ic_action_pgm_add"
+        android:title="New"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/act_schd_delete_setup"
+        android:icon="@drawable/ic_action_pgm_delete"
+        android:title="Delete"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/act_schd_save"
+        android:icon="@drawable/ic_action_schd_save"
+        android:title="Save"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/act_schd_upload"
+        android:icon="@drawable/ic_action_schd_upload"
+        android:title="Upload"
+        app:showAsAction="ifRoom" />
+</menu>

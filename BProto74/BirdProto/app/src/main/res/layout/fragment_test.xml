@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set to default position"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        android:layout_marginTop="80dp"/>
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select testing program"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_test_prev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@android:color/white"
+            android:src="@drawable/ic_navigate_before_black_24dp"/>
+
+        <EditText
+            android:id="@+id/etxt_test_prog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="1"
+            android:maxLength="1"
+            android:inputType="number"
+            android:layout_marginHorizontal="10dp"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_test_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@android:color/white"
+            android:src="@drawable/ic_navigate_next_black_24dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/test_btn_run"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Run"/>
+        <Button
+            android:id="@+id/test_btn_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop"/>
+    </LinearLayout>
+</LinearLayout>
