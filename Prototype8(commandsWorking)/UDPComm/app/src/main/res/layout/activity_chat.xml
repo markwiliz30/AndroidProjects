@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f0f0f0"
+    tools:context="com.example.myapplication.ChatActivity">
+
+    <TextView
+        android:id="@+id/textViewX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="X axis" />
+
+    <SeekBar
+        android:id="@+id/XSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="540"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/YTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Y axis" />
+
+    <SeekBar
+        android:id="@+id/YSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="180"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/LTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Light" />
+
+    <SeekBar
+        android:id="@+id/LSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="255"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/btn0"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:text="0" />
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:text="1" />
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:text="2" />
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:text="3" />
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:text="4" />
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:text="5" />
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:text="6" />
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:text="7" />
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:text="8" />
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:text="9" />
+
+</LinearLayout>
+
+    <ListView
+        android:id="@+id/messageListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"/>
+</LinearLayout>

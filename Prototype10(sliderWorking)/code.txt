@@ -1,0 +1,20 @@
+int length = signature.length + 1 + byteDataLength.length + 1 + data.length;
+                dataToSend = new byte[length];
+                for (int i = 0; i<length; i++) {
+                    for(int j = 0; j<signature.length; j++, i++)
+                    {
+                        dataToSend[i] = signature[j];
+                    }
+                    dataToSend[i] = version;
+                    i++;
+                    for (int l = 0; l<byteDataLength.length; l++, i++)
+                    {
+                        dataToSend[i] = byteDataLength[l];
+                    }
+                    dataToSend[i] = command;
+                    i++;
+                    for (int m = 0; m<data.length; m++, i++)
+                    {
+                        dataToSend[i] = data[m];
+                    }
+                }
